@@ -1,0 +1,147 @@
+=================================================================================
+
+ENV Summary:
+
+  TIME: Tue Aug 10 2021 10:34:22 GMT+0200 (GMT+02:00)
+  TITLE: ember
+  ARGV:
+  - C:\Program Files\nodejs\node.exe
+  - C:\Users\Youssef\AppData\Roaming\npm\node_modules\ember-cli\bin\ember
+  - s
+  EXEC_PATH: C:\Program Files\nodejs\node.exe
+  TMPDIR: C:\Users\Youssef\AppData\Local\Temp
+  SHELL: null
+  PATH:
+  - C
+  - \Program Files\Git\mingw64\bin;C
+  - \Program Files\Git\usr\bin;C
+  - \Users\Youssef\bin;C
+  - \Program Files\Common Files\Oracle\Java\javapath;C
+  - \Program Files (x86)\Common Files\Oracle\Java\javapath;C
+  - \Program Files (x86)\Intel\iCLS Client;C
+  - \Program Files\Intel\iCLS Client;C
+  - \WINDOWS\system32;C
+  - \WINDOWS;C
+  - \WINDOWS\System32\Wbem;C
+  - \WINDOWS\System32\WindowsPowerShell\v1.0;C
+  - \Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C
+  - \Program Files\Intel\Intel(R) Management Engine Components\DAL;C
+  - \Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C
+  - \Program Files\Intel\Intel(R) Management Engine Components\IPT;C
+  - \WINDOWS\System32\OpenSSH;C
+  - \Program Files\Microsoft SQL Server\130\Tools\Binn;C
+  - \Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C
+  - \Program Files\nodejs;C
+  - \ProgramData\chocolatey\bin;C
+  - \Program Files\Git\cmd;C
+  - \Program Files\dotnet;C
+  - \Program Files\PuTTY;C
+  - \Program Files\Docker\Docker\resources\bin;C
+  - \ProgramData\DockerDesktop\version-bin;C
+  - \Users\Youssef\AppData\Local\Programs\Python\Python39\Scripts;C
+  - \Users\Youssef\AppData\Local\Programs\Python\Python39;C
+  - \Program Files\MySQL\MySQL Shell 8.0\bin;C
+  - \Users\Youssef\AppData\Local\Programs\Microsoft VS Code\bin;C
+  - \Users\Youssef\AppData\Roaming\npm;C
+  - \Program Files\heroku\bin;C
+  - \Users\Youssef\AppData\Local\Microsoft\WindowsApps;C
+  - \Users\Youssef\.dotnet\tools;C
+  - \php;C
+  - \Users\Youssef\AppData\Local\GitHubDesktop\bin;C
+  - \Users\Youssef\.dotnet\tools;C
+  - \Users\Youssef\docker-ember\bin
+  PLATFORM: win32 x64
+  FREEMEM: 1362763776
+  TOTALMEM: 8462430208
+  UPTIME: 218771
+  LOADAVG: 0,0,0
+  CPUS:
+  - Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz - 2712
+  - Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz - 2712
+  - Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz - 2712
+  - Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz - 2712
+  ENDIANNESS: LE
+  VERSIONS:
+  - ares: 1.15.0
+  - brotli: 1.0.7
+  - cldr: 35.1
+  - http_parser: 2.9.3
+  - icu: 64.2
+  - llhttp: 2.0.4
+  - modules: 72
+  - napi: 5
+  - nghttp2: 1.40.0
+  - node: 12.15.0
+  - openssl: 1.1.1d
+  - tz: 2019c
+  - unicode: 12.1
+  - uv: 1.33.1
+  - v8: 7.7.299.13-node.16
+  - zlib: 1.2.11
+
+ERROR Summary:
+
+  - broccoliBuilderErrorStack: Error: webpack returned errors to ember-auto-import
+    at C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\ember-auto-import\js\webpack.js:231:32
+    at finalCallback (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\webpack\lib\Compiler.js:257:39)
+    at C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\webpack\lib\Compiler.js:306:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\tapable\lib\Hook.js:154:20)
+    at C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\webpack\lib\Compiler.js:304:22
+    at Compiler.emitRecords (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\webpack\lib\Compiler.js:499:39)
+    at C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\webpack\lib\Compiler.js:298:10
+    at C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\webpack\lib\Compiler.js:485:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:15:1)
+  - code: [undefined]
+  - codeFrame: webpack returned errors to ember-auto-import
+  - errorMessage: webpack returned errors to ember-auto-import
+        at Bundler
+-~- created here: -~-
+    at new Plugin (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\ember-auto-import\node_modules\broccoli-plugin\dist\index.js:47:36)
+    at new Bundler (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\ember-auto-import\js\bundler.js:34:9)
+    at AutoImport.makeBundler (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\ember-auto-import\js\auto-import.js:57:16)
+    at AutoImport.addTo (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\ember-auto-import\js\auto-import.js:67:38)
+    at EmberApp.host.addonPostprocessTree (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\ember-auto-import\js\auto-import.js:101:29)
+    at EmberApp.toTree (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\ember-cli\lib\broccoli\ember-app.js:1666:17)
+    at module.exports (C:\Users\Youssef\Desktop\ember-comunica-project\ember-cli-build.js:23:14)
+    at Builder.readBuildFile (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\ember-cli\lib\models\builder.js:49:14)
+    at Builder.setupBroccoliBuilder (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\ember-cli\lib\models\builder.js:63:22)
+    at new Builder (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\ember-cli\lib\models\builder.js:29:10)
+-~- (end) -~-
+  - errorType: Build Error
+  - location:
+    - column: [undefined]
+    - file: [undefined]
+    - line: [undefined]
+    - treeDir: [undefined]
+  - message: webpack returned errors to ember-auto-import
+        at Bundler
+-~- created here: -~-
+    at new Plugin (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\ember-auto-import\node_modules\broccoli-plugin\dist\index.js:47:36)
+    at new Bundler (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\ember-auto-import\js\bundler.js:34:9)
+    at AutoImport.makeBundler (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\ember-auto-import\js\auto-import.js:57:16)
+    at AutoImport.addTo (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\ember-auto-import\js\auto-import.js:67:38)
+    at EmberApp.host.addonPostprocessTree (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\ember-auto-import\js\auto-import.js:101:29)
+    at EmberApp.toTree (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\ember-cli\lib\broccoli\ember-app.js:1666:17)
+    at module.exports (C:\Users\Youssef\Desktop\ember-comunica-project\ember-cli-build.js:23:14)
+    at Builder.readBuildFile (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\ember-cli\lib\models\builder.js:49:14)
+    at Builder.setupBroccoliBuilder (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\ember-cli\lib\models\builder.js:63:22)
+    at new Builder (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\ember-cli\lib\models\builder.js:29:10)
+-~- (end) -~-
+  - name: Error
+  - nodeAnnotation: [undefined]
+  - nodeName: Bundler
+  - originalErrorMessage: webpack returned errors to ember-auto-import
+  - stack: Error: webpack returned errors to ember-auto-import
+    at C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\ember-auto-import\js\webpack.js:231:32
+    at finalCallback (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\webpack\lib\Compiler.js:257:39)
+    at C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\webpack\lib\Compiler.js:306:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\tapable\lib\Hook.js:154:20)
+    at C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\webpack\lib\Compiler.js:304:22
+    at Compiler.emitRecords (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\webpack\lib\Compiler.js:499:39)
+    at C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\webpack\lib\Compiler.js:298:10
+    at C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\webpack\lib\Compiler.js:485:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (C:\Users\Youssef\Desktop\ember-comunica-project\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:15:1)
+
+=================================================================================
